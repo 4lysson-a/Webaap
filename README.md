@@ -6,7 +6,7 @@ to run just type
 `./Webaap.sh`
 
 if don't have permission type
-`chmod -R 777 Webaap.sh`
+`sudo chmod +x Webaap.sh`
 
 
 
