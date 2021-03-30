@@ -14,3 +14,8 @@ You need install Nativefier to create a Webaap :>
 
 https://github.com/nativefier/nativefier
 
+
+
+![image](assets/screenshot1.png)
+![image](assets/screenshot2.png)
+
