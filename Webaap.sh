@@ -2,11 +2,26 @@
 
 # Alysson A.
 
+verificar_nativefier(){
+	clear
+	echo Verificando nativefier ...
+	echo "" 
+	if [ nativefier == 0 ]
+
+		then
+			echo Instalando nativefier ..
+			echo "" 
+			sudo npm install -g nativefier
+		else
+			echo Você já tem o nativefier instalado
+			echo ""
+			echo ""
+			return 0
+		fi
+}
 
 
 create_app(){
-	clear	
-
 	echo Nome do app;
 	read app_name;
 
@@ -22,15 +37,20 @@ create_app(){
 
 	echo ""
 
-	mkdir ~/Downloads/.ubuntuAppIcon;
+	echo Insira a extensão do link do icon
+	read icon_ex;
+
+	echo ""
+
+	mkdir ~/Downloads/.WebappIcon;
 
 	echo Fazendo Download do icone .. 
 
-	wget ${icon_link} -O ~/Downloads/.ubuntuAppIcon/${app_name}_icon.png
+	wget ${icon_link} -O ~/Downloads/.WebappIcon/${app_name}_icon.${icon_ex}
 
 	echo Inicializando nativefier
 
-	nativefier -n "${app_name}" -i ~/Downloads/.ubuntuAppIcon/${app_name}_icon.png --inject inject.js --single-instance ${site_link}
+	nativefier -n "${app_name}" -i ~/Downloads/.WebappIcon/${app_name}_icon.png --inject inject.js --single-instance ${site_link}
 
 	echo Movendo para /opt ..
 
@@ -63,7 +83,7 @@ create_app(){
 	Name=${app_name}
 	Categories=Network
 	Type=Application
-	StartupWMClass=${app_name}-nativefier-7bbd2c
+	StartupWMClass=${app_name}
 	Terminal=false
 	StartupNotify=true" >> ${app_name}.desktop
 
@@ -79,7 +99,11 @@ create_app(){
 	echo ""
 
 	echo Consulte este post caso tenha alguma dúvida
+	echo ""
+
 	echo https://blog.usejournal.com/whatsapp-for-linux-703275fed797
+	echo ""
+	echo ""
 }
 
 delete_app()
@@ -95,35 +119,56 @@ delete_app()
  	cd /usr/share/applications
  	sudo rm ${app_name}.desktop
  	
+ 	cd ~/Downloads/.WebappIcon/
+
+ 	if [ 1 ]
+ 		then
+ 			sudo rm ${app_name}_icon.png
+ 			sudo rm ${app_name}_icon.jpg
+ 			sudo rm ${app_name}_icon.svg
+ 		fi
+
+
  	echo ""
  	echo ${app_name} deletado com sucesso
  	return 0;
 }
 
-
-main(){
+home(){
 	clear
 	echo Bem vindo ao instalador do Webaap 
 	echo ""
 	echo 1 - Criar um novo Webapp
 	echo 2 - Remover um Wbaapp
+	echo 0 - Sair
 	echo ""
 	read opcao
-		
-		if [ $opcao == 1 ]
+	return opcao
+}
+
+main(){
+	
+	home
+
+	if [ $opcao == 1 ]
 	then
-	   create_app
+		verificar_nativefier
+	   	create_app
 	else
 	   if [ $opcao == 2 ]
 	   then
 		  	delete_app
-		  
+			else
+				if [ $opcao == 0 ]
+					then 
+						clear
+						exit
+					fi
 	   fi
+
 	   echo ""
 	   echo Comando não encontrado
 	fi
-	
-
 }
 
 main
