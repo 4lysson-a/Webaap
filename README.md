@@ -24,6 +24,4 @@ https://github.com/nativefier/nativefier
 
 ## Webaap
 
-![image](assets/screenshot1.png)
-![image](assets/screenshot2.png)
 
