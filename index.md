@@ -22,7 +22,7 @@ To run the pt-br version type
 
 You need install Nativefier to create a Webaap :>
 
-https://github.com/nativefier/nativefier
+![Nativefier Github](https://github.com/nativefier/nativefier)
 
 ## Webaap
 
