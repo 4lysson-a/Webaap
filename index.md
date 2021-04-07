@@ -70,8 +70,11 @@ Then he asks for an icon link, this is because nativefier allows you to create c
 You can take the icon straight from google images, but I recommend using [Flaticon](https://www.flaticon.com/br/).
 
 Below is an example of a whatsapp icon taken from the flaticon
+
 ```https://www.flaticon.com/svg/vstatic/svg/733/733585.svg?token=exp=1617835507~hmac=e802dd663482e71ed81c0b45fd4bfa77```
+
 After finding the link just paste it in the terminal and the script will do the rest, it will also ask for the extension of the icon, it is highly recommended to use icons in png, so just type
+
 ```png```
 
 ## Webaap
