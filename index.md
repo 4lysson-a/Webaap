@@ -59,6 +59,21 @@ You need install Nativefier to create a Webaap :>
 
 [Nativefier Github](https://github.com/nativefier/nativefier)
 
+
+## How it works ?
+
+Firstly, webaap is just a script that facilitates the execution of nativefier, when opening it will first ask for the name of the application you want to create, this name corresponds to the shortcut that will be created in the application menu.
+
+### App icon
+
+Then he asks for an icon link, this is because nativefier allows you to create custom icons for the applications, there is no need to download the icon, just insert the link with some valid extension, we will talk about that later.
+You can take the icon straight from google images, but I recommend using [Flaticon](https://www.flaticon.com/br/).
+
+Below is an example of a whatsapp icon taken from the flaticon
+```https://www.flaticon.com/svg/vstatic/svg/733/733585.svg?token=exp=1617835507~hmac=e802dd663482e71ed81c0b45fd4bfa77```
+After finding the link just paste it in the terminal and the script will do the rest, it will also ask for the extension of the icon, it is highly recommended to use icons in png, so just type
+```png```
+
 ## Webaap
 
 ![image](assets/screenshot1.png)
