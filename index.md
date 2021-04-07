@@ -80,6 +80,11 @@ After finding the link just paste it in the terminal and the script will do the 
 ```extension
 png
 ```
+The script will create a temporary folder in 
+```
+~/Download/.WebappIcon 
+```
+and store your icons inside, you can delete the folder after installing Webaap
 
 ## Webaap
 
