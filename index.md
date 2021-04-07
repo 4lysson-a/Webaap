@@ -21,7 +21,7 @@ aly@bar:~$ ./Webaap.sh
 if don't have permission type
 
 
-```shell
+```Shell Session
 sudo chmod +x Webaap.sh
 ```
 
