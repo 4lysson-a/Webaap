@@ -15,15 +15,17 @@ to run just type
 
 ```bash
 ./Webaap.sh
-
-<b>tag</b>.
-
 ```
-`./Webaap.sh`
+
 
 if don't have permission type
 
-`sudo chmod +x Webaap.sh`
+
+```bash
+sudo chmod +x Webaap.sh
+```
+
+
 
 # Available arguments 
 
