@@ -13,7 +13,7 @@ because the script use he to create a Webaap
 to run just type
 
 
-```Shell Session
+```shell
 ./Webaap.sh
 ```
 
@@ -23,7 +23,7 @@ Remember you need to be inside the Webaap directory to exec any command
 if don't have permission type
 
 
-```Shell Session
+```shell
 sudo chmod +x Webaap.sh
 ```
 
@@ -36,7 +36,7 @@ sudo chmod +x Webaap.sh
 To run the pt-br version type
 
 
-```Shell Session
+```shell
 ./Webaap.sh -pt
 ```
 
@@ -45,7 +45,7 @@ To run the pt-br version type
 
 Show the app version
 
-```Shell Session
+```shell
 ./Webaap.sh -v
 ```
 
