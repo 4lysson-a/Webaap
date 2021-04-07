@@ -13,8 +13,8 @@ because the script use he to create a Webaap
 to run just type
 
 
-```console
-aly@bar:~$ ./Webaap.sh
+```Shell Session
+./Webaap.sh
 ```
 
 
@@ -34,8 +34,8 @@ sudo chmod +x Webaap.sh
 To run the pt-br version type
 
 
-```console
-aly@bar:~$ ./Webaap.sh -pt
+```Shell Session
+./Webaap.sh -pt
 ```
 
 
@@ -43,9 +43,9 @@ aly@bar:~$ ./Webaap.sh -pt
 
 Show the app version
 
-```console
+```Shell Session
 
-aly@bar:~$ ./Webaap.sh -v
+./Webaap.sh -v
 
 ```
 
