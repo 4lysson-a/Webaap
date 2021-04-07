@@ -1,5 +1,5 @@
 # Webaap
-Create a Electron app from website in linux
+Create a desktop application from website using Nativefier
 
 ### Documentation is available here
 
