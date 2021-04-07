@@ -40,7 +40,7 @@ To run the pt-br version type
 ./Webaap.sh -pt
 ```
 
-
+<!--
 ### Aplication version `-v`
 
 Show the app version
@@ -48,6 +48,7 @@ Show the app version
 ```shell
 ./Webaap.sh -v
 ```
+-->
 
 
 <br/>
