@@ -33,11 +33,21 @@ sudo chmod +x Webaap.sh
 
 To run the pt-br version type
 
-`./Webaap.sh -pt`
+
+```console
+./Webaap.sh -pt
+```
+
 
 ## Aplication version `-v`
 
 Show the app version
+
+```console
+
+./Webaap.sh -v
+
+```
 
 
 <br/>
@@ -46,7 +56,9 @@ Show the app version
 
 You need install Nativefier to create a Webaap :>
 
+```link
 [Nativefier Github](https://github.com/nativefier/nativefier)
+```
 
 # Webaap
 
