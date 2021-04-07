@@ -46,9 +46,7 @@ To run the pt-br version type
 Show the app version
 
 ```Shell Session
-
 ./Webaap.sh -v
-
 ```
 
 
