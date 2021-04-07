@@ -17,6 +17,8 @@ to run just type
 ./Webaap.sh
 ```
 
+Remember you need to be inside the Webaap directory to exec any command
+
 
 if don't have permission type
 
