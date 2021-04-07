@@ -108,6 +108,5 @@ It is important that the name is exactly the same, otherwise the script will not
 
 ## Screen
 
-![image](assets/screenshot1.png)
 ![image](assets/screenshot2.png)
 
