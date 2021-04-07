@@ -13,7 +13,7 @@ because the script use he to create a Webaap
 to run just type
 
 
-```bash
+```console
 ./Webaap.sh
 ```
 
@@ -21,7 +21,7 @@ to run just type
 if don't have permission type
 
 
-```bash
+```console
 sudo chmod +x Webaap.sh
 ```
 
