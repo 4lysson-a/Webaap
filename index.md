@@ -80,11 +80,31 @@ After finding the link just paste it in the terminal and the script will do the 
 ```extension
 png
 ```
+
+### Inside the script
+
 The script will create a temporary folder in 
 ```
 ~/Download/.WebappIcon 
 ```
-and store your icons inside, you can delete the folder after installing Webaap
+And store your icons inside, you can delete the folder after installing Webaap
+
+
+Then it will move your app to
+```
+/ opt
+```
+
+And create an app.desktop, where it will be available at
+```
+/ usr / share / applications
+```
+
+### Delete app
+
+But don't worry about directories
+When choosing the option to delete an application, just pass exactly the same name you used in the creation, and the script will delete all files and directories created automatically.
+It is important that the name is exactly the same, otherwise the script will not recognize what to delete
 
 ## Webaap
 
