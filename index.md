@@ -56,9 +56,8 @@ Show the app version
 
 You need install Nativefier to create a Webaap :>
 
-```link
+
 [Nativefier Github](https://github.com/nativefier/nativefier)
-```
 
 # Webaap
 
