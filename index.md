@@ -14,7 +14,7 @@ to run just type
 
 
 ```console
-./Webaap.sh
+aly@bar:~$ ./Webaap.sh
 ```
 
 
@@ -22,7 +22,7 @@ if don't have permission type
 
 
 ```console
-sudo chmod +x Webaap.sh
+aly@bar:~$ sudo chmod +x Webaap.sh
 ```
 
 
@@ -35,7 +35,7 @@ To run the pt-br version type
 
 
 ```console
-./Webaap.sh -pt
+aly@bar:~$ ./Webaap.sh -pt
 ```
 
 
@@ -45,7 +45,7 @@ Show the app version
 
 ```console
 
-./Webaap.sh -v
+aly@bar:~$ ./Webaap.sh -v
 
 ```
 
