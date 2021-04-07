@@ -22,7 +22,7 @@ if don't have permission type
 
 
 ```shell
-aly@bar:~$ sudo chmod +x Webaap.sh
+sudo chmod +x Webaap.sh
 ```
 
 
