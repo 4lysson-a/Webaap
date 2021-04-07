@@ -106,7 +106,7 @@ But don't worry about directories
 When choosing the option to delete an application, just pass exactly the same name you used in the creation, and the script will delete all files and directories created automatically.
 It is important that the name is exactly the same, otherwise the script will not recognize what to delete
 
-## Webaap
+## Screen
 
 ![image](assets/screenshot1.png)
 ![image](assets/screenshot2.png)
