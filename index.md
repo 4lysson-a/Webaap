@@ -70,11 +70,20 @@ Firstly, webaap is just a script that facilitates the execution of nativefier, w
 Then he asks for an icon link, this is because nativefier allows you to create custom icons for the applications, there is no need to download the icon, just insert the link with some valid extension, we will talk about that later.
 You can take the icon straight from google images, but I recommend using [Flaticon](https://www.flaticon.com/br/).
 
-Below is an example of a whatsapp icon taken from the flaticon
+Below is an example of a icon taken from the flaticon
 
 ```link
 https://www.flaticon.com/br/icone-gratis/escudo-de-protecao_65?related_id=65&origin=search
 ```
+Right-click, and open image in a new tab
+Then just copy the url and paste it into Webaap.
+
+
+This link may expire
+```link
+https://www.flaticon.com/svg/vstatic/svg/0/65.svg?token=exp=1618252222~hmac=d64679dde7bc60dae387b364da2c6ec9
+```
+
 
 After finding the link just paste it in the terminal and the script will do the rest, it will also ask for the extension of the icon, it is highly recommended to use icons in png, so just type
 
