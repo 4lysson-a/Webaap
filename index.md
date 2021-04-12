@@ -78,12 +78,8 @@ https://www.flaticon.com/br/icone-gratis/escudo-de-protecao_65?related_id=65&ori
 Right-click, and open image in a new tab
 Then just copy the url and paste it into Webaap.
 
-
-This link may expire
-```link
-https://www.flaticon.com/svg/vstatic/svg/0/65.svg?token=exp=1618252222~hmac=d64679dde7bc60dae387b364da2c6ec9
-```
-
+<br/>
+<br/>
 
 After finding the link just paste it in the terminal and the script will do the rest, it will also ask for the extension of the icon, it is highly recommended to use icons in png, so just type
 
