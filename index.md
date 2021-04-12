@@ -73,7 +73,7 @@ You can take the icon straight from google images, but I recommend using [Flatic
 Below is an example of a whatsapp icon taken from the flaticon
 
 ```link
-https://www.flaticon.com/svg/vstatic/svg/733/733585.svg?token=exp=1617835507~hmac=e802dd663482e71ed81c0b45fd4bfa77
+https://www.flaticon.com/br/icone-gratis/escudo-de-protecao_65?related_id=65&origin=search
 ```
 
 After finding the link just paste it in the terminal and the script will do the rest, it will also ask for the extension of the icon, it is highly recommended to use icons in png, so just type
