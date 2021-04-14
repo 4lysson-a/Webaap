@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Alysson A.
+# Webaap v1.2
 
 pt_br=https://raw.githubusercontent.com/4ly-a/Webaap/main/lib/pt_br.sh
 en_us=https://raw.githubusercontent.com/4ly-a/Webaap/main/lib/en_us.sh
-
 
 #Pt-br
 case $1 in
