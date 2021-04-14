@@ -1,3 +1,10 @@
+delete_src (){
+		  rm .Webaap.sh.swp
+			rm en_us.sh
+			rm pt_br.sh
+			clear
+}
+
 verificar_nativefier(){
 	clear
 	echo Verificando nativefier ...

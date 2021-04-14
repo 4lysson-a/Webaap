@@ -2,25 +2,22 @@
 
 # Alysson A.
 
-delete_src (){
-		  rm .Webaap.sh.swp
-			rm en_us.sh
-			rm pt_br.sh
-			clear
-}
-
 pt_br=https://raw.githubusercontent.com/4ly-a/Webaap/main/lib/pt_br.sh
 en_us=https://raw.githubusercontent.com/4ly-a/Webaap/main/lib/en_us.sh
 
-wget -q ${pt_br} && wget -q ${en_us}
 
-. ./pt_br.sh
-. ./en_us.sh
+
+
+
 
 
 #Pt-br
 case $1 in
    "-pt") 
+
+	wget -q ${pt_br}
+	
+	. ./pt_br.sh
 
 	main(){
 	
@@ -48,8 +45,6 @@ case $1 in
 	   echo ""
 	   echo Comando não encontrado
 	   
-
-
 	fi
 
 
@@ -64,6 +59,10 @@ main
 *)
 
 main(){
+	
+	wget -q ${en_us}
+	
+	. ./en_us.sh
 	
 	home_en
 
