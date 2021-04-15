@@ -22,28 +22,25 @@ case $1 in
 	then
 		verificar_nativefier
 	   	create_app
-			delete_src
+			delete_webaap_lib
 	else
 	   if [ $opcao == 2 ]
 	   then
 		  	delete_app
-				delete_src
+				delete_webaap_lib
 			else
 				if [ $opcao == 0 ]
 					then 
 						clear
-						delete_src
+						delete_webaap_lib
 						exit
 					fi
 	   fi
-	   delete_src
+	   delete_webaap_lib
 	   echo ""
 	   echo Comando não encontrado
 	   
 	fi
-
-
-
 }
 
 main
@@ -65,21 +62,21 @@ main(){
 	then
 		verificar_nativefier_en
 	  create_app_en
-		delete_src
+		delete_webaap_lib
 	else
 	   if [ $opcao == 2 ]
 	   then
 		  	delete_app_en
-				delete_src
+				delete_webaap_lib
 			else
 				if [ $opcao == 0 ]
 					then 
 						clear
-						delete_src
+						delete_webaap_lib
 						exit
 					fi
 	   fi
-		delete_src
+		delete_webaap_lib
 	   echo ""
 	   echo Command not found
 	fi
