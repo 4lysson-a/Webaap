@@ -6,10 +6,12 @@
 pt_br=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/webaap/pt_br.sh
 en_us=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/webaap/en_us.sh
 
+. ./delete_shell.sh
+
 #Pt-br
 case $1 in
    "-pt") 
-
+	
 	wget -q ${pt_br}
 	
 	. ./pt_br.sh
@@ -22,21 +24,21 @@ case $1 in
 	then
 		verificar_nativefier
 	   	create_app
-			delete_webaap_lib
+			delete
 	else
 	   if [ $opcao == 2 ]
 	   then
 		  	delete_app
-				delete_webaap_lib
+				delete
 			else
 				if [ $opcao == 0 ]
 					then 
 						clear
-						delete_webaap_lib
+						delete
 						exit
 					fi
 	   fi
-	   delete_webaap_lib
+	   delete
 	   echo ""
 	   echo Comando não encontrado
 	   
@@ -62,21 +64,21 @@ main(){
 	then
 		verificar_nativefier_en
 	  create_app_en
-		delete_webaap_lib
+		delete
 	else
 	   if [ $opcao == 2 ]
 	   then
 		  	delete_app_en
-				delete_webaap_lib
+				delete
 			else
 				if [ $opcao == 0 ]
 					then 
 						clear
-						delete_webaap_lib
+						delete
 						exit
 					fi
 	   fi
-		delete_webaap_lib
+		delete
 	   echo ""
 	   echo Command not found
 	fi
@@ -91,3 +93,5 @@ main
 
 esac
 
+
+#Raw https://raw.githubusercontent.com/4ly-a/shellscript_library/master/webaap/pt_br.sh
