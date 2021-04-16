@@ -13,6 +13,7 @@ path=~/Downloads/.WebappIcon
 import_delete(){
 		wget -P ${path} -q ${del}
 		. ${path}/delete_shell.sh
+		cd ~/Downloads
 }
 
 
@@ -33,24 +34,23 @@ case $1 in
 		verificar_nativefier
 	   	create_app
 	   	import_delete
-			delete
+			delete && clear
 	else
 	   if [ $opcao == 2 ]
 	   then
 	   		import_delete
 		  	delete_app
-				delete
+				delete && clear
 			else
 				if [ $opcao == 0 ]
 					then 
 						import_delete
-						clear
-						delete
+						delete && clear
 						exit
 					fi
 	   fi
 	   import_delete
-	   delete
+	   delete && clear
 	   echo ""
 	   echo Comando não encontrado
 	   
@@ -77,23 +77,23 @@ main(){
 		verificar_nativefier_en
 		create_app_en
 		import_delete
-		delete
+		delete && clear
 	else
 	   if [ $opcao == 2 ]
 	   then
 	   	import_delete
-		  delete_app_en && delete
+		  delete_app_en && delete && clear
 			else
 				if [ $opcao == 0 ]
 					then 
 						import_delete
 						clear
-						delete
+						delete && clear
 						exit
 					fi
 	   fi
 	  import_delete
-		delete
+		delete && clear
 	   echo ""
 	   echo Command not found
 	fi
