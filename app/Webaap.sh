@@ -5,16 +5,24 @@
 
 pt_br=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/webaap/pt_br.sh
 en_us=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/webaap/en_us.sh
+del=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/delete_shell.sh
 
-. ./delete_shell.sh
+path=~/Downloads/.WebappIcon
+
+
+import_delete(){
+		wget -P ${path} -q ${del}
+		. ${path}/delete_shell.sh
+}
+
 
 #Pt-br
 case $1 in
    "-pt") 
 	
-	wget -q ${pt_br}
-	
-	. ./pt_br.sh
+	wget -P ${path} -q ${pt_br}	
+
+	. ${path}/pt_br.sh
 
 	main(){
 	
@@ -24,20 +32,24 @@ case $1 in
 	then
 		verificar_nativefier
 	   	create_app
+	   	import_delete
 			delete
 	else
 	   if [ $opcao == 2 ]
 	   then
+	   		import_delete
 		  	delete_app
 				delete
 			else
 				if [ $opcao == 0 ]
 					then 
+						import_delete
 						clear
 						delete
 						exit
 					fi
 	   fi
+	   import_delete
 	   delete
 	   echo ""
 	   echo Comando não encontrado
@@ -54,30 +66,33 @@ main
 
 main(){
 	
-	wget -q ${en_us}
+	wget -P ${path} -q ${en_us}
 	
-	. ./en_us.sh
+	. ${path}/en_us.sh
 	
 	home_en
 
 	if [ $opcao == 1 ]
 	then
 		verificar_nativefier_en
-	  create_app_en
+		create_app_en
+		import_delete
 		delete
 	else
 	   if [ $opcao == 2 ]
 	   then
-		  	delete_app_en
-				delete
+	   	import_delete
+		  delete_app_en && delete
 			else
 				if [ $opcao == 0 ]
 					then 
+						import_delete
 						clear
 						delete
 						exit
 					fi
 	   fi
+	  import_delete
 		delete
 	   echo ""
 	   echo Command not found
