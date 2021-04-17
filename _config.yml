@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 title: 
 description: Create a desktop application from website using Nativefier
 logo: ./assets/logo.png
