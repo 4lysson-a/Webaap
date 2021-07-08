@@ -3,9 +3,9 @@
 # Alysson A.
 # Webaap v1.2
 
-pt_br=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/webaap/pt_br.sh
-en_us=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/webaap/en_us.sh
-del=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/delete_shell.sh
+pt_br=https://raw.githubusercontent.com/4lysson-a/shellscript_library/master/webaap/pt_br.sh
+en_us=https://raw.githubusercontent.com/4lysson-a/shellscript_library/master/webaap/en_us.sh
+del=https://raw.githubusercontent.com/4lysson-a/shellscript_library/master/delete_shell.sh
 
 path=~/Downloads/.WebappIcon
 
