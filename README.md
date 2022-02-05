@@ -13,6 +13,12 @@ curl -o webaap.sh https://raw.githubusercontent.com/4lysson-a/Webaap/main/app/We
 ./webaap.sh
 ```
 
+## remove
+
+```sh
+sudo rm -r webaap.sh
+```
+
 ### Documentation is available here
 
 [Webaap docs](https://4lysson-a.github.io/Webaap/)
