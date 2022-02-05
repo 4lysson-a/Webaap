@@ -4,7 +4,7 @@ Create a desktop application from website using Nativefier
 ## Installing
 
 ```sh
-curl -o webaap.sh https://raw.githubusercontent.com/4lysson-a/Webaap/main/app/Webaap.sh | sudo chmod +x webaap.sh | ./webaap.sh | sudo rm -r webaap.sh
+curl -o webaap.sh https://raw.githubusercontent.com/4lysson-a/Webaap/main/app/Webaap.sh | sudo chmod +x webaap.sh 
 ```
 
 ### Documentation is available here
